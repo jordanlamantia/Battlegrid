@@ -21,6 +21,7 @@
 		E42634CD1C3AB643005FBCA6 /* fond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E42634CC1C3AB643005FBCA6 /* fond.jpg */; };
 		E42634D11C3AD053005FBCA6 /* fond2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E42634D01C3AD053005FBCA6 /* fond2.jpg */; };
 		E42634D31C3AD354005FBCA6 /* fond2R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E42634D21C3AD354005FBCA6 /* fond2R.jpg */; };
+		E47C3ADC1C43070700FB9C97 /* DefaiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C3ADB1C43070700FB9C97 /* DefaiteViewController.m */; };
 		E4CC8A961C3BC2B100FDCA4C /* falcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8A951C3BC2B100FDCA4C /* falcon.png */; };
 		E4CC8A981C3BC72100FDCA4C /* tieblanc.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8A971C3BC72100FDCA4C /* tieblanc.png */; };
 		E4CC8A9A1C3C214200FDCA4C /* obstacl.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8A991C3C214200FDCA4C /* obstacl.png */; };
@@ -28,7 +29,6 @@
 		E4CC8AA01C3D177400FDCA4C /* sith.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8A9F1C3D177400FDCA4C /* sith.png */; };
 		E4CC8AA21C3D1A6E00FDCA4C /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8AA11C3D1A6E00FDCA4C /* explosion.png */; };
 		E4CC8AA41C3D33D400FDCA4C /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8AA31C3D33D400FDCA4C /* intro.mp3 */; };
-		E4CC8AAA1C3E6CFF00FDCA4C /* defaiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC8AA91C3E6CFF00FDCA4C /* defaiteViewController.m */; };
 		E4CC8AAC1C3E6D7A00FDCA4C /* victory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8AAB1C3E6D7A00FDCA4C /* victory.jpg */; };
 		E4CC8AAE1C3EB74B00FDCA4C /* stlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8AAD1C3EB74B00FDCA4C /* stlogo.png */; };
 		E4CC8AB01C3EBB5500FDCA4C /* obstacleexplode.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CC8AAF1C3EBB5500FDCA4C /* obstacleexplode.png */; };
@@ -75,6 +75,8 @@
 		E42634CC1C3AB643005FBCA6 /* fond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fond.jpg; sourceTree = "<group>"; };
 		E42634D01C3AD053005FBCA6 /* fond2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fond2.jpg; sourceTree = "<group>"; };
 		E42634D21C3AD354005FBCA6 /* fond2R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fond2R.jpg; sourceTree = "<group>"; };
+		E47C3ADA1C43070700FB9C97 /* DefaiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaiteViewController.h; sourceTree = "<group>"; };
+		E47C3ADB1C43070700FB9C97 /* DefaiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaiteViewController.m; sourceTree = "<group>"; };
 		E4CC8A951C3BC2B100FDCA4C /* falcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = falcon.png; sourceTree = "<group>"; };
 		E4CC8A971C3BC72100FDCA4C /* tieblanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tieblanc.png; sourceTree = "<group>"; };
 		E4CC8A991C3C214200FDCA4C /* obstacl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obstacl.png; sourceTree = "<group>"; };
@@ -82,8 +84,6 @@
 		E4CC8A9F1C3D177400FDCA4C /* sith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sith.png; sourceTree = "<group>"; };
 		E4CC8AA11C3D1A6E00FDCA4C /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
 		E4CC8AA31C3D33D400FDCA4C /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
-		E4CC8AA81C3E6CFF00FDCA4C /* defaiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaiteViewController.h; sourceTree = "<group>"; };
-		E4CC8AA91C3E6CFF00FDCA4C /* defaiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = defaiteViewController.m; sourceTree = "<group>"; };
 		E4CC8AAB1C3E6D7A00FDCA4C /* victory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = victory.jpg; sourceTree = "<group>"; };
 		E4CC8AAD1C3EB74B00FDCA4C /* stlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stlogo.png; sourceTree = "<group>"; };
 		E4CC8AAF1C3EBB5500FDCA4C /* obstacleexplode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obstacleexplode.png; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 				E42634981C3A7407005FBCA6 /* ViewController.m */,
 				E42634C91C3AB048005FBCA6 /* SecondViewController.h */,
 				E42634CA1C3AB048005FBCA6 /* SecondViewController.m */,
-				E4CC8AA81C3E6CFF00FDCA4C /* defaiteViewController.h */,
-				E4CC8AA91C3E6CFF00FDCA4C /* defaiteViewController.m */,
+				E47C3ADA1C43070700FB9C97 /* DefaiteViewController.h */,
+				E47C3ADB1C43070700FB9C97 /* DefaiteViewController.m */,
 				E426349A1C3A7407005FBCA6 /* Main.storyboard */,
 				E426349D1C3A7407005FBCA6 /* Assets.xcassets */,
 				E426349F1C3A7407005FBCA6 /* LaunchScreen.storyboard */,
@@ -349,9 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42634CB1C3AB048005FBCA6 /* SecondViewController.m in Sources */,
+				E47C3ADC1C43070700FB9C97 /* DefaiteViewController.m in Sources */,
 				E42634991C3A7407005FBCA6 /* ViewController.m in Sources */,
 				E42634961C3A7407005FBCA6 /* AppDelegate.m in Sources */,
-				E4CC8AAA1C3E6CFF00FDCA4C /* defaiteViewController.m in Sources */,
 				E42634931C3A7407005FBCA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -656,10 +656,10 @@
             </objects>
             <point key="canvasLocation" x="14.5" y="-190.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Defaite View Controller-->
         <scene sceneID="BqL-DR-Zo7">
             <objects>
-                <viewController id="nLn-vt-VEq" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="defaite" id="nLn-vt-VEq" customClass="DefaiteViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y7l-P5-aua"/>
                         <viewControllerLayoutGuide type="bottom" id="nhk-tY-817"/>
@@ -668,7 +668,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="victory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="doc-ZX-HbK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="victory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="doc-ZX-HbK" customClass="defaite">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DÉFAITE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grs-EK-zV1">
@@ -683,6 +683,9 @@
                                 <state key="normal" title="REJOUER">
                                     <color key="titleColor" red="0.80784313730000001" green="0.58431372550000005" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="boutonRejouer:" destination="nLn-vt-VEq" eventType="touchUpInside" id="IUl-Sg-ReG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

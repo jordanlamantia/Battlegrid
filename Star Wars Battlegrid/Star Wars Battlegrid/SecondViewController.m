@@ -562,6 +562,10 @@
     }
 }
 
+-(void)defaite {
+    SecondViewController * nextVc = [self.storyboard instantiateViewControllerWithIdentifier:@"defaite"];
+    [self.navigationController pushViewController:nextVc animated:YES];
+}
 
 -(void)teleport {
 
@@ -597,6 +601,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+        [self defaite];
             
     } else if (memoire[x][y] == 4) {
             
@@ -613,6 +619,8 @@
     //bloqué le bouton téléporte.
     _bouttonVl.enabled = NO;
     _bouttonBombe.enabled = NO;
+        
+    [self defaite];
             
     } else if (memoire[x][y] == 0) {
             
@@ -720,6 +728,8 @@
             _bouttonVl.enabled = NO;
             _bouttonBombe.enabled = NO;
             
+            [self defaite];
+            
             long x = [positions[i][0] integerValue];
             long y = [positions[i][1] integerValue];
             
@@ -730,7 +740,7 @@
                     }
                 }
             }
-
+            
             
         } else if (memoire[x][y] == 4) {
             
@@ -812,6 +822,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+        [self defaite];
             
     } else if (memoire[xn][yn] == 4) {
             
@@ -822,6 +834,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+       [self defaite];
 
             
     } else if (memoire[xn][yn] == 0) {
@@ -870,6 +884,7 @@
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
 
+        [self defaite];
         
         
     } else if (memoire[xn][yn] == 4) {
@@ -881,7 +896,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
-
+        
+        [self defaite];
         
         
     } else if (memoire[xn][yn] == 0) {
@@ -929,6 +945,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+        [self defaite];
 
         
     } else if (memoire[xn][yn] == 4) {
@@ -940,6 +958,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+        [self defaite];
 
         
     } else if (memoire[xn][yn] == 0) {
@@ -988,6 +1008,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+        [self defaite];
 
         
     } else if (memoire[xn][yn] == 4) {
@@ -999,6 +1021,8 @@
         //bloqué le bouton téléporte.
         _bouttonVl.enabled = NO;
         _bouttonBombe.enabled = NO;
+        
+        [self defaite];
 
         
     } else if (memoire[xn][yn] == 0) {
